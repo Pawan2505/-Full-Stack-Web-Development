@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+   /* max-width: 130rem; */
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 50px;
+
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/* .nav-list img{
+    height: 50px;
+    width: 60px;
+} */
+
+.nav-list ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+   
+}
+
+.list{
+    list-style: none;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+.small-button{
+    background-color: rgb(7, 7, 101);
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+
+.hero-left-section{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    margin-left: 100px;
+    align-items: center;
+}
+
+.hero-heading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    font-size: 60px;
+    color: rgb(6, 6, 91);
+}
+
+.hero-span{
+    color: rgb(10, 80, 209);
+}
+
+.hero-para{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    font-size: small;
+    font-weight: 200;
+    font-family: 'Merriweather', serif;
+}
+
+.large-button{
+    background-color: rgb(7, 7, 101);
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-right-section img{
+    margin-right: 100px;
+    height: -200px;
+}
